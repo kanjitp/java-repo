@@ -20,7 +20,9 @@ public class methods {
     public static String askUsername() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Please insert your name here: ");
-        return sc.nextLine();
+        String username = sc.nextLine();
+        sc.close();
+        return username;
 
     }
 
