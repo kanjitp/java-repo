@@ -9,6 +9,7 @@ public class euclideanAlgorithm {
         System.out.println();
         gcdExtended(a, b);
         bezoutLemma(a, b);
+        sc.close();
     }
 
     public static int gcd(int a, int b) {
