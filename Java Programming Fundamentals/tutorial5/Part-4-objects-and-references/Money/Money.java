@@ -17,7 +17,7 @@ public class Money {
     // methods
     public Money toMoney(double number) {
         int integers = (int) number;
-        int decimals = (int) Math.round((number - integers) * 100);
+        int decimals = (int) Math.abs(Math.round((number - integers) * 100));
         return new Money(integers, (int)decimals);
     }
     public double toDouble (Money money) {
