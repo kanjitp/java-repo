@@ -13,7 +13,6 @@ public class Bird {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return this.name + " (" + this.latinName + ")";
     }
 
