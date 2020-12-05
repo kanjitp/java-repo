@@ -16,7 +16,7 @@ public class Main {
         }
         System.out.println("finnish: " + finnishPlates);
         // if the equals-method hasn't been overwritten, the same license number will be
-        // added to the list againg
+        // added to the list again
 
         VehicleRegistry registry = new VehicleRegistry();
         registry.add(li1, "Arto");

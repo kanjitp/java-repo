@@ -21,6 +21,7 @@ public class LicensePlate {
     }
     @Override
     // This will serve as our **key** in hashmap in vehicle registry already
+    // has direct effect on keySet() method of HashMap
     // we can use license plate directly
     public int hashCode() {
         if (this.liNumber == null) {
