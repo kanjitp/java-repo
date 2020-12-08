@@ -6,7 +6,7 @@ public class Pipe<T> {
     private Queue<T> pipe;
  
     public Pipe() {
-        this.pipe = new LinkedList<>();
+        this.pipe = new LinkedList<>(); 
     }
 
     public void putIntoPipe(T value) {
