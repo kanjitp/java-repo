@@ -5,6 +5,7 @@ public class Main {
         LicensePlate li1 = new LicensePlate("FI", "ABC-123");
         LicensePlate li2 = new LicensePlate("FI", "UXE-465");
         LicensePlate li3 = new LicensePlate("D", "B WQ-431");
+        LicensePlate li4 = new LicensePlate("D", "J SW-234");
 
         ArrayList<LicensePlate> finnishPlates = new ArrayList<>();
         finnishPlates.add(li1);
